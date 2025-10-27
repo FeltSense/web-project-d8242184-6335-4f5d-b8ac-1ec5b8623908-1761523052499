@@ -1,7 +1,5 @@
 'use client'
 
-import React from 'react';
-
 export default function Navigation() {
   const [activeMenu, setActiveMenu] = React.useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
